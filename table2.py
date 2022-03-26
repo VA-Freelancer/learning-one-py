@@ -1,3 +1,5 @@
+# from arepl_dump import dump
+
 print('Таблица умножения')
 
 for i in range(1, 10):

@@ -27,7 +27,7 @@
 # f = a ^ b # множество из элементов - буквы которые есть в 'a' или в 'b', но не в обоих
 # print(c, d, e, f, sep='\n')
 
-# s = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+s = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
 # методы
 # set.copy() - возвращает копию множества
 # set.add(elem) - добавляет элемент в множество
@@ -41,5 +41,7 @@
 # print(s, id(s))
 # print(s2, id(s2))
 # print(s)
-a = frozenset('hello') # нельзя добавить новый элемент
-print(a)
+# a = frozenset('hello')  # нельзя добавить новый элемент
+# print(a)
+# for i in s:
+#     print(i)
